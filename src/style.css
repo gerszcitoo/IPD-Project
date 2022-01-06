@@ -274,14 +274,22 @@ nav>ul>li {
     body {
         background-color: red;
     }
-    nav>ul>li {
-        display: none;
-    }
     nav {
+        background: hsl(0, 0%, 100%, 0.1);
+        backdrop-filter: blur(1rem);
         position: fixed;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
+        inset: 0 0 0 30%;
+    }
+    nav>ul {
+        flex-direction: column;
+        padding: min(30vh, 8rem) 2em;
+    }
+    nav>ul>li {
+        /* display: none; */
+        font-size: 2rem;
     }
     .mobile-nav,
     .bar {
@@ -290,5 +298,9 @@ nav>ul>li {
     }
     .mobile-nav {
         transform: translate(0%)!important;
+    }
+    .search {
+        margin-right: 0;
+        margin-left: 10px;
     }
 }
