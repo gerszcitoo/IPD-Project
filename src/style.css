@@ -9,7 +9,10 @@ a {
 }
 
 body {
-    background-color: #8A2B95;
+    background: url(../src/img/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 
 
@@ -282,6 +285,7 @@ nav>ul>li {
         flex-direction: column;
         justify-content: space-between;
         inset: 0 0 0 30%;
+        height: 100%;
     }
     nav>ul {
         flex-direction: column;
@@ -301,6 +305,15 @@ nav>ul>li {
     }
     .search {
         margin-right: 0;
-        margin-left: 10px;
+        margin-left: 2rem;
+        height: 3rem;
+        margin-top: -7rem;
+    }
+    .searchbox>input {
+        height: 2rem;
+        font-size: 1.6rem;
+    }
+    .search-lens {
+        font-size: 1.6rem;
     }
 }
