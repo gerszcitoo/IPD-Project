@@ -13,26 +13,19 @@
 
 <body>
     <!-- <div class="primary-header"> -->
+    <!-- -------------- MOBILE NAV ----------------- -->
+    <button id="mobile-nav" aria-controls="primary-nav" aria-expanded="false">
+    <div class="mobile-nav" id="mobile-nav" aria-controls="primary-nav" aria-expanded="false">
+        <a class="mobile-btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+    </div>
+    <!-- </button> -->
     <nav>
-        <!-- -------------- MOBILE NAV ----------------- -->
-        <div class="mobile-nav" id="mobile-nav">
-            <a class="mobile-btn">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-        </div>
-        <!-- WIP -->
-        <!-- <div class="depoloyed">
-            <ul>
-                <li><a class="mobile-item" href="#">Inicio</a></li>
-                <li><a class="mobile-item" href="#">Acerca</a></li>
-                <li><a class="mobile-item" href="#">Servicios</a></li>
-                <li><a class="mobile-item" href="#">Contacto</a></li>
-            </ul>
-        </div> -->
         <!-- --------------- PC NAV -------------------- -->
-        <ul>
+        <ul data-visible="false" id="navbar" class="primary-nav">
             <li>
                 <img class="logo" src="./src/img/Logo_TV_2015.png" alt="logo">
             </li>
