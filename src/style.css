@@ -161,6 +161,14 @@ nav>ul>li {
 
 /* ---------------- MOBILE NAVBAR ------------ */
 
+.mobile-nav {
+    font-size: 17px;
+    background-color: #111111;
+    height: 4rem;
+    display: none;
+    align-items: center;
+}
+
 .mobile-nav .bar {
     width: 25px;
     height: 3px;
@@ -171,15 +179,11 @@ nav>ul>li {
     transition: all 0.3s ease-in-out;
 }
 
-.mobile-nav {
-    padding: 10px;
-    margin: 10px 5px;
-    display: none;
-    max-width: fit-content;
-}
-
 .mobile-btn {
+    display: none;
+    left: 0%;
     width: 50px;
+    padding: 0.5rem;
 }
 
 .mobile-btn:hover {
@@ -273,7 +277,6 @@ nav>ul>li {
     nav>ul>li {
         font-size: 2rem;
     }
-    .mobile-nav,
     .bar {
         display: block;
         cursor: pointer;
@@ -281,6 +284,7 @@ nav>ul>li {
     .mobile-nav {
         z-index: 9999;
         transform: translate(0%)!important;
+        display: flex;
     }
     .search {
         /* margin-right: 0;
@@ -288,6 +292,9 @@ nav>ul>li {
         height: 3rem;
         margin-top: -7rem; */
         display: none;
+    }
+    .mobile-btn {
+        display: block;
     }
     .searchbox>input {
         height: 2rem;
