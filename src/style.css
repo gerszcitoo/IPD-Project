@@ -84,6 +84,7 @@ nav>ul>li {
     color: white;
     display: inline-block;
     position: relative;
+    transition: 0.1s all;
 }
 
 .nav-item:after {
@@ -105,7 +106,7 @@ nav>ul>li {
 }
 
 .nav-item:active {
-    transform: scale(1.1);
+    transform: scale(0.8);
 }
 
 
@@ -150,12 +151,16 @@ nav>ul>li {
     user-select: none;
 }
 
+.search-lens>a {
+    transition: 0.1s all;
+}
+
 .search-lens:hover {
     cursor: pointer;
 }
 
 .search-lens:active>a {
-    transform: scale(1.1);
+    transform: scale(0.8);
 }
 
 .searchbox {
@@ -259,22 +264,10 @@ nav>ul>li {
 }
 
 
-/* ------------------- DEPLOYED --------------------- */
-
-.deployed {
-    /* display: none; */
-    background-color: black;
-}
-
-.mobile-item {
-    color: white;
-}
-
-
 /* -------------------- RESPONSIVE ------------------- */
 
 @media (max-width: 800px) {
-    nav {
+    .primary-nav {
         position: fixed;
         display: flex;
         flex-direction: column;
@@ -283,14 +276,15 @@ nav>ul>li {
         height: 100%;
         background: hsl(0, 0%, 0%, 0.75);
         z-index: 1000;
+        transition: .3s all;
         transform: translateX(100%);
     }
-    nav>ul[data-visible="true"] {
+    .primary-nav[data-visible="true"] {
         transform: translateX(0%);
     }
     /* IF BACKDROP IS SUPPORTED */
     @supports (backdrop-filter: blur(1rem)) {
-        nav {
+        .primary-nav {
             background: hsl(0, 0%, 100%, 0.1);
             backdrop-filter: blur(1rem);
         }
@@ -300,7 +294,6 @@ nav>ul>li {
         padding: min(30vh, 8rem) 2em;
     }
     nav>ul>li {
-        /* display: none; */
         font-size: 2rem;
     }
     .mobile-nav,
