@@ -13,13 +13,26 @@
 
 <body>
     <!-- -------------- MOBILE NAV ----------------------- -->
-    <div class="mobile-nav" id="mobile-nav" aria-controls="primary-nav" aria-expanded="false">
-        <!-- -------------- HAMBURGER MENU-- ----------------- -->
-        <a class="mobile-btn">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
+    <div class="mobile-nav-background">
+        <div class="mobile-nav" id="mobile-nav" aria-controls="primary-nav" aria-expanded="false">
+            <!-- -------------- HAMBURGER MENU-- ----------------- -->
+            <a class="mobile-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+        </div>
+        <!-- ------------------------MOBILE SEARCH BOX----------------------- -->
+        <div class="search-mobile">
+            <div class="search-lens">
+                <a href="#">
+                    <img src="/src/img/lens.svg" alt="">
+                </a>
+            </div>
+            <div class="searchbox-mobile">
+                <input placeholder="Buscar" type="text">
+            </div>
+        </div>
     </div>
     <!-- --------------- PC NAV -------------------- -->
     <nav class="primary-nav" data-visible="false">
@@ -31,8 +44,8 @@
             <li><a class="nav-item" href="#">Acerca</a></li>
             <li><a class="nav-item" href="#">Servicios</a></li>
             <li><a class="nav-item" href="#">Contacto</a></li>
-            <!-- ------------------------SEARCH BOX----------------------- -->
         </ul>
+        <!-- ------------------------SEARCH BOX----------------------- -->
         <div class="search">
             <div class="search-lens">
                 <a href="#">
