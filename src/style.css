@@ -9,7 +9,7 @@ a {
 }
 
 body {
-    background: url(../src/img/background.jpg) no-repeat;
+    background: url(../src/img/JN-14.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -98,7 +98,7 @@ nav>ul>li {
     /* max-width: 100%; */
     justify-content: center;
     align-items: center;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 0px;
     background-color: white;
     border-radius: 5px;
     margin: auto;
