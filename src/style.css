@@ -23,8 +23,13 @@ img {
 
 /* ------------------------NAVBAR--------------------- */
 
-.logo {
+.nav-logo {
     height: 30px;
+    width: 30px;
+    /* background: red; */
+    background: url(../src/img/IP-white.png) no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 nav {
@@ -93,12 +98,10 @@ nav>ul>li {
     /* max-width: 100%; */
     justify-content: center;
     align-items: center;
-    padding: 10px 10px 10px 0px;
-    margin: 10px 5px;
+    padding: 10px 10px 10px 10px;
     background-color: white;
     border-radius: 5px;
     margin: auto;
-    margin-right: initial;
     margin-right: 10px;
 }
 
@@ -320,6 +323,10 @@ nav>ul>li {
         transform: translate(0%)!important;
         display: flex;
         justify-content: space-between;
+    }
+    .nav-logo {
+        height: 50px;
+        width: 50px;
     }
     .search {
         display: none;
