@@ -4,16 +4,26 @@
     margin: 0;
 }
 
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
 a {
     text-decoration: none;
 }
 
 body {
-    background: url(../src/img/JN-14.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    overflow: overlay;
 }
 
 img {
@@ -112,8 +122,6 @@ nav>ul>li {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: 40px;
-    height: 40px; */
 }
 
 .search-lens>a>img {
@@ -276,9 +284,19 @@ nav>ul>li {
 }
 
 
+/* -------------------------NAVBAR END-------------------- */
+
+.preview {
+    background: url(../src/img/JN-14.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
 /* -------------------- RESPONSIVE ------------------- */
 
-@media (max-width: 800px) {
+@media (max-width: 630px) {
     .primary-nav {
         position: fixed;
         display: flex;
