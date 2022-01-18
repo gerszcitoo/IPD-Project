@@ -1,8 +1,9 @@
+// ---------------- MOBILE BURGER MENU ANIMATION-----------
 $('.mobile-nav').click(function() {
     $(".nav").toggleClass("mobile-nav");
     $(this).toggleClass("is-active");
 });
-
+// ----------------- MOBILE MENU DEPLOY-------------
 const navToggle = document.querySelector(".mobile-nav");
 const primaryNav = document.querySelector(".primary-nav");
 navToggle.addEventListener("click", () => {
@@ -16,3 +17,10 @@ navToggle.addEventListener("click", () => {
         primaryNav.setAttribute("aria-expanded", false);
     }
 });
+// ----------------INVISIBLE SCROLLBAR-------------
+// const scrollModify = document.querySelector(body);
+// window.addEventListener('scroll', this.handleScroll, true);
+// $(scrollModify).on(scroll, function() {
+
+//     element.style.webkit = '0.5em';
+// })
