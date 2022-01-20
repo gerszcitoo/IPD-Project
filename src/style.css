@@ -10,7 +10,7 @@
     }
     
      ::-webkit-scrollbar-thumb {
-        background-color: rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 0, 0, 0.4);
     }
     
      ::-webkit-scrollbar-thumb:hover {
@@ -284,15 +284,75 @@
     }
     /* -------------------------NAVBAR END-------------------- */
     
-    .preview {
+    .top-section {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        overflow: hidden;
         background: url(../src/img/JN-14.jpg) no-repeat;
         background-position: center;
         background-size: cover;
-        min-height: 100vh;
+        height: 100vh;
+        text-align: center;
+        justify-content: center;
+        animation: change-back 10s infinite ease-in-out;
+    }
+    
+    .top-preview {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-transform: uppercase;
+    }
+    
+    .top-preview a {
+        background: white;
+        padding: 10px 24px;
+        color: black;
+        font-size: 1rem;
+        border-radius: 20px;
+    }
+    
+    .title span {
+        font-size: 5rem;
+    }
+    
+    .top-preview a:hover {
+        background: black;
+        color: white;
+    }
+    
+    @keyframes change-back {
+        0% {
+            background: url(../src/img/background-1.jpg) no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        25% {
+            background: url(../src/img/background-2.jpg) no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        50% {
+            background: url(../src/img/background-3.jpg) no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        75% {
+            background: url(../src/img/background-4.jpg) no-repeat;
+            background-position: center;
+            background-size: cover
+        }
+        100% {
+            background: url(../src/img/background-1.jpg) no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
     }
     /* -------------------- RESPONSIVE ------------------- */
     
-    @media (max-width: 630px) {
+    @media (max-width: 670px) {
         .primary-nav {
             position: fixed;
             display: flex;
@@ -357,5 +417,9 @@
         }
         .mobile-btn {
             display: block;
+        }
+        /* ------------------END NAVBAR MOBILE------------------ */
+        .top-preview {
+            font-weight: 800;
         }
     }
