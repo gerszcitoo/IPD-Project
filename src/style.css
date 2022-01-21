@@ -7,6 +7,18 @@
     html {
         scroll-behavior: smooth;
     }
+    /* --------SELECTION--------- */
+    
+     ::selection {
+        background: rgba(255, 255, 255, .8);
+        color: black;
+    }
+    
+     ::-moz-selection {
+        background: rgba(255, 255, 255, .8);
+        color: black;
+    }
+    /* -------SCROLLBAR------ */
     
      ::-webkit-scrollbar {
         background: transparent;
@@ -304,25 +316,37 @@
     
     .top-preview {
         position: absolute;
+        height: 100%;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-transform: uppercase;
+        display: flex;
+        align-items: center;
     }
     
-    .top-preview a {
-        background: white;
-        padding: 10px 24px;
-        color: black;
-        font-size: 1rem;
-        border-radius: 20px;
+    .title {
+        margin-bottom: 2rem;
     }
     
     .title span {
         font-size: 5rem;
     }
     
-    .top-preview a:hover {
+    .more {
+        position: absolute;
+        bottom: 5rem;
+        left: 0;
+        right: 0;
+        background: white;
+        padding: 10px 0px;
+        max-width: max-content;
+        color: black;
+        font-size: 1rem;
+        border-radius: 20px;
+    }
+    
+    .more:hover {
         background: black;
         color: white;
     }
@@ -348,12 +372,14 @@
             background-position: center;
             background-size: cover
         }
+        /* FIRST IMAGE NEEDS TO BE THE LAST TOO, IF NOT, IT DOESNT EASE */
         100% {
             background: url(../src/img/background-1.jpg) no-repeat;
             background-position: center;
             background-size: cover;
         }
     }
+    /* --------------------GALLERY GRID--------------------- */
     /* -------------------- RESPONSIVE ------------------- */
     
     @media (max-width: 670px) {
