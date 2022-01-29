@@ -44,7 +44,7 @@ img {
     width: 0.5em;
 }
 
- ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -415,6 +415,24 @@ nav>ul>li {
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 5px;
+}
+
+.grid-element {
+    background: grey;
+}
+
+.grid-element:hover .grid-btn {
+    opacity: 1;
+}
+
+.grid-btn {
+    position: absolute;
+    object-fit: cover;
+    /* height: 100%; */
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease;
+    background: red;
 }
 
 .img1 {
