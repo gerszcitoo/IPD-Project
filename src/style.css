@@ -419,6 +419,10 @@ nav>ul>li {
 
 .grid-element {
     background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .grid-element:hover .grid-btn {
@@ -428,7 +432,7 @@ nav>ul>li {
 .grid-btn {
     position: absolute;
     object-fit: cover;
-    /* height: 100%; */
+    height: 100%;
     width: 100%;
     opacity: 0;
     transition: .2s ease;
@@ -439,7 +443,7 @@ nav>ul>li {
     grid-area: 1 / 1 / 3 / 3;
 }
 
-.img1>img {
+.grid-element>img {
     object-fit: cover;
     width: 100%;
     max-height: 100%;
@@ -449,70 +453,28 @@ nav>ul>li {
     grid-area: 1 / 3 / 3 / 4;
 }
 
-.img2>img {
-    object-fit: cover;
-    width: 100%;
-    max-height: 100%;
-}
-
 .img3 {
     grid-area: 1 / 4 / 2 / 5;
-}
-
-.img3>img {
-    object-fit: cover;
-    width: 100%;
-    max-height: 100%;
 }
 
 .img4 {
     grid-area: 2 / 4 / 3 / 5;
 }
 
-.img4>img {
-    object-fit: cover;
-    width: 100%;
-    max-height: 100%;
-}
-
 .img5 {
     grid-area: 3 / 1 / 5 / 2;
-}
-
-.img5>img {
-    object-fit: cover;
-    width: 100%;
-    max-height: 100%;
 }
 
 .img6 {
     grid-area: 3 / 2 / 4 / 3;
 }
 
-.img6>img {
-    object-fit: cover;
-    width: 100%;
-    max-height: 100%;
-}
-
 .img7 {
     grid-area: 4 / 2 / 5 / 3;
 }
 
-.img7>img {
-    object-fit: cover;
-    width: 100%;
-    max-height: 100%;
-}
-
 .img8 {
     grid-area: 3 / 3 / 5 / 5;
-}
-
-.img8>img {
-    object-fit: cover;
-    width: 100%;
-    max-height: 100%;
 }
 
 
