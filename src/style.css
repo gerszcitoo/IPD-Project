@@ -436,7 +436,7 @@ nav>ul>li {
     width: 100%;
     opacity: 0;
     transition: .2s ease;
-    background: red;
+    background: rgba(180, 180, 180, 0.9);
 }
 
 .img1 {
