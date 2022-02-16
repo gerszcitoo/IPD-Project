@@ -69,7 +69,7 @@ img {
     height: 30px;
     width: 30px;
     /* background: red; */
-    background: url(../src/img/IP-white.png) no-repeat;
+    background: url(./assets/img/IP-white.png) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -369,33 +369,33 @@ nav>ul>li {
 
 @keyframes change-back {
     0% {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 80%, rgba(255, 255, 255, 1) 90%), url(../src/img/background-1.jpg);
-        /* background: url(../src/img/background-1.jpg); */
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 80%, rgba(255, 255, 255, 1) 90%), url(./assets/img/background-1.jpg);
+        /* background: url(./assets/img/background-1.jpg); */
         background-position: center;
         background-size: cover;
     }
     25% {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 80%, rgba(255, 255, 255, 1) 90%), url(../src/img/background-2.jpg);
-        /* background: url(../src/img/background-2.jpg); */
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 80%, rgba(255, 255, 255, 1) 90%), url(./assets/img/background-2.jpg);
+        /* background: url(./assets/img/background-2.jpg); */
         background-position: center;
         background-size: cover;
     }
     50% {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 80%, rgba(255, 255, 255, 1) 90%), url(../src/img/background-3.jpg);
-        /* background: url(../src/img/background-3.jpg); */
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 80%, rgba(255, 255, 255, 1) 90%), url(./assets/img/background-3.jpg);
+        /* background: url(./assets/img/background-3.jpg); */
         background-position: center;
         background-size: cover;
     }
     75% {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 80%, rgba(255, 255, 255, 1) 90%), url(../src/img/background-4.jpg);
-        /* background: url(../src/img/background-4.jpg); */
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 80%, rgba(255, 255, 255, 1) 90%), url(./assets/img/background-4.jpg);
+        /* background: url(./assets/img/background-4.jpg); */
         background-position: center;
         background-size: cover
     }
     /* FIRST IMAGE NEEDS TO BE THE LAST TOO, IF NOT, IT DOESNT EASE */
     100% {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 80%, rgba(255, 255, 255, 1) 90%), url(../src/img/background-1.jpg);
-        /* background: url(../src/img/background-1.jpg); */
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 80%, rgba(255, 255, 255, 1) 90%), url(./assets/img/background-1.jpg);
+        /* background: url(./assets/img/background-1.jpg); */
         background-position: center;
         background-size: cover;
     }
