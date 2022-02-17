@@ -1,8 +1,3 @@
-// ---------------- MOBILE BURGER MENU ANIMATION-----------
-$('.mobile-nav').click(function() {
-    $(".nav").toggleClass("mobile-nav");
-    $(this).toggleClass("is-active");
-});
 // ----------------- MOBILE MENU DEPLOY-------------
 const navToggle = document.querySelector(".mobile-nav");
 const primaryNav = document.querySelector(".primary-nav");
