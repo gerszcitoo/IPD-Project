@@ -1,0 +1,46 @@
+<!-- -------------- MOBILE NAV ----------------------- -->
+<div class="mobile-nav-background">
+    <div class="mobile-nav" (click)="toggleBurger()" [ngClass]="burger ? 'is-active' : ''" id="mobile-nav" aria-controls="primary-nav" aria-expanded="false">
+        <!-- -------------- HAMBURGER MENU-- ----------------- -->
+        <a class="mobile-btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+    </div>
+    <!-- ------------------------MOBILE SEARCH BOX----------------------- -->
+    <div class="search-mobile">
+        <div class="search-lens">
+            <a href="#">
+                <img src="./assets/img/lens.png" alt="">
+            </a>
+        </div>
+        <div class="searchbox-mobile">
+            <input placeholder="Buscar" type="text">
+        </div>
+    </div>
+</div>
+<!-- --------------- PC NAV -------------------- -->
+<nav class="primary-nav" data-visible="false">
+    <ul id="navbar">
+        <li>
+            <div class="nav-logo"></div>
+        </li>
+        <li><a class="nav-item" href="index.html">Inicio</a></li>
+        <li><a class="nav-item" href="#">Portfolio</a></li>
+        <li><a class="nav-item" href="#">Sobre mí</a></li>
+        <li><a class="nav-item" href="#">Contacto</a></li>
+    </ul>
+    <!-- ------------------------SEARCH BOX----------------------- -->
+    <div class="search">
+        <div class="search-lens">
+            <a href="#">
+                <img src="./assets/img/lens.png" alt="">
+            </a>
+        </div>
+        <div class="searchbox">
+            <input placeholder="Buscar" type="text">
+        </div>
+    </div>
+</nav>
+<!-- --------------- END NAV -------------------- -->

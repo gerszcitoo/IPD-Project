@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>IP Diseño</title>
+    <base href="/">
     <link rel="stylesheet" href="styles.scss">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
@@ -12,106 +13,7 @@
 </head>
 
 <body>
-    <!-- -------------- MOBILE NAV ----------------------- -->
-    <div class="mobile-nav-background">
-        <div class="mobile-nav" id="mobile-nav" aria-controls="primary-nav" aria-expanded="false">
-            <!-- -------------- HAMBURGER MENU-- ----------------- -->
-            <a class="mobile-btn">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-        </div>
-        <!-- ------------------------MOBILE SEARCH BOX----------------------- -->
-        <div class="search-mobile">
-            <div class="search-lens">
-                <a href="#">
-                    <img src="./assets/img/lens.png" alt="">
-                </a>
-            </div>
-            <div class="searchbox-mobile">
-                <input placeholder="Buscar" type="text">
-            </div>
-        </div>
-    </div>
-    <!-- --------------- PC NAV -------------------- -->
-    <nav class="primary-nav" data-visible="false">
-        <ul id="navbar">
-            <li>
-                <div class="nav-logo"></div>
-            </li>
-            <li><a class="nav-item" href="index.html">Inicio</a></li>
-            <li><a class="nav-item" href="#">Portfolio</a></li>
-            <li><a class="nav-item" href="#">Sobre mí</a></li>
-            <li><a class="nav-item" href="#">Contacto</a></li>
-        </ul>
-        <!-- ------------------------SEARCH BOX----------------------- -->
-        <div class="search">
-            <div class="search-lens">
-                <a href="#">
-                    <img src="./assets/img/lens.png" alt="">
-                </a>
-            </div>
-            <div class="searchbox">
-                <input placeholder="Buscar" type="text">
-            </div>
-        </div>
-    </nav>
-    <!-- --------------- END NAV -------------------- -->
-    <div class="top-section">
-        <div class="top-preview">
-            <h1 class="title"><span>IP DISEÑO</span></h1>
-            <a href="#grid" class="more">Ver más</a>
-        </div>
-    </div>
-    <!-- ---------------- IMAGE GRID ---------------------- -->
-    <h1 class="grid-title">
-        Mis Proyectos
-    </h1>
-    <div class="container" id="grid">
-        <div class="img1 grid-element"> <img src="./assets/img/background-1.jpg" alt="">
-            <a href="" class="grid-btn">
-                <p class="element-title">NOMBRE OBRA</p>
-            </a>
-        </div>
-        <div class="img2 grid-element"> <img src="./assets/img/background-1.jpg" alt="">
-            <a href="" class="grid-btn">
-                <p class="element-title">NOMBRE OBRA</p>
-            </a>
-        </div>
-        <!-- -------------- RESPONSIVE PROBLEM ------------------>
-        <div class="img3 grid-element"> <img src="./assets/img/background-1.jpg" alt="">
-            <a href="" class="grid-btn">
-                <p class="element-title">NOMBRE OBRA</p>
-            </a>
-        </div>
-        <div class="img4 grid-element"> <img src="./assets/img/background-1.jpg" alt="">
-            <a href="" class="grid-btn">
-                <p class="element-title">NOMBRE OBRA</p>
-            </a>
-        </div>
-        <!-- -------------- RESPONSIVE PROBLEM ------------------>
-        <div class="img5 grid-element"> <img src="./assets/img/background-1.jpg" alt="">
-            <a href="" class="grid-btn">
-                <p class="element-title">NOMBRE OBRA</p>
-            </a>
-        </div>
-        <div class="img6 grid-element"> <img src="./assets/img/background-1.jpg" alt="">
-            <a href="" class="grid-btn">
-                <p class="element-title">NOMBRE OBRA</p>
-            </a>
-        </div>
-        <div class="img7 grid-element"> <img src="./assets/img/background-1.jpg" alt="">
-            <a href="" class="grid-btn">
-                <p class="element-title">NOMBRE OBRA</p>
-            </a>
-        </div>
-        <div class="img8 grid-element"> <img src="./assets/img/background-1.jpg" alt="">
-            <a href="" class="grid-btn">
-                <p class="element-title">NOMBRE OBRA</p>
-            </a>
-        </div>
-    </div>
+    <app-root></app-root>
 </body>
 
 <!-- --------JQUERY AND SCRIPT------- -->
