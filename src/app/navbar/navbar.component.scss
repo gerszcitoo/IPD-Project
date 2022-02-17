@@ -3,8 +3,7 @@
 .nav-logo {
     height: 30px;
     width: 30px;
-    /* background: red; */
-    background: url(../../assets/img/IP-black.png) no-repeat;
+    background: url(../../assets/img/IP-white.png) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -38,7 +37,7 @@ nav>ul>li {
 }
 
 .nav-item {
-    color: black;
+    color: white;
     display: inline-block;
     position: relative;
     transition: 0.1s all;
@@ -254,6 +253,12 @@ nav>ul>li {
 /* -------------------------RESPONSIVE-------------------- */
 
 @media (max-width: 670px) {
+    .nav-logo {
+        background: url(../../assets/img/IP-black.png);
+    }
+    .nav-item {
+        color: black;
+    }
     .primary-nav {
         position: fixed;
         display: flex;
@@ -261,7 +266,7 @@ nav>ul>li {
         justify-content: center;
         inset: 0 0 0 30%;
         height: 100%;
-        background: hsl(0, 0%, 0%, 0.75);
+        background: hsl(0, 0%, 100%, 0.75);
         z-index: 1000;
         transition: .3s all;
         transform: translateX(100%);
