@@ -1,16 +1,16 @@
-import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import * as $ from 'jquery';
-
+import { Component, OnInit} from '@angular/core';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss']
 })
+
 export class NavbarComponent implements OnInit {
 
   burger=false;
 
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit(): void {
   }
