@@ -1,5 +1,38 @@
+.about-title {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.about-main {
+    display: flex;
+}
+
+// ------------COL 1--------
+.about-col1 {
+    margin: 1rem;
+    // max-width: 50%;
+}
+
 .about-img {
-    background-repeat: no-repeat;
+    height: 30rem;
+    width: 30rem;
+    background: url(../../assets/img/IvanaPares.jpg) no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 50%;
+}
+
+// ------------COL 2--------
+.about-col2 {
+    margin: 1rem;
+}
+
+// ---------RESPONSIVE---------
+@media (max-width: 670px) {
+    .about-main {
+        flex-direction: column;
+        align-items: center;
+    }
 }
