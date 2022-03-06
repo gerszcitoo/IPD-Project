@@ -18,6 +18,9 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .contactanos h2 {
@@ -25,14 +28,14 @@
     color: white;
     display: flex;
     justify-content: center;
-    margin: .5rem;
+    margin: 1rem;
 }
 
 .iconos {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
 .icon-button {
@@ -118,4 +121,17 @@
 
 .email span {
     background: #EB2222;
+}
+
+@media (max-width: 465px) {
+    .contactanos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .iconos {
+        flex-direction: column;
+    }
+    .icon-button {
+        margin: 1rem;
+    }
 }
