@@ -8,12 +8,12 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   { path: 'inicio', component: HomeComponent },
-  {path: "", redirectTo: "home", pathMatch: "full"},
+  {path: '', redirectTo: "inicio", pathMatch: "full"},
   { path: 'sobre-mi', component: AboutComponent },
   { path: 'contacto', component: ContactComponent },
   { path: '404', component: PageNotFoundComponent},
    //Wild Card Route for 404 request
-   {path: '**', redirectTo: '404'},
+   {path: '**', redirectTo: '404', pathMatch: 'full'},
   //  { path: '**', pathMatch: 'full', component: PageNotFoundComponent },
 ];
 

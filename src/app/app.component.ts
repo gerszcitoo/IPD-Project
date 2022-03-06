@@ -12,5 +12,5 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
       new name();
   }
-  title = 'IP Diseño';
+  title = 'Estudio IP';
 }
