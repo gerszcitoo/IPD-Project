@@ -13,7 +13,7 @@
 // .footer-item {
 //     margin-left: 1rem;
 // }
-.contactanos {
+.contact-content {
     background: #333232;
     margin: 0;
     padding: 0;
@@ -23,7 +23,7 @@
     justify-content: space-between;
 }
 
-.contactanos h2 {
+.contact-text {
     font-size: 1.5rem;
     color: white;
     display: flex;
@@ -125,7 +125,7 @@
 }
 
 @media (max-width: 465px) {
-    .contactanos {
+    .contact-content {
         flex-direction: column;
         align-items: center;
     }
