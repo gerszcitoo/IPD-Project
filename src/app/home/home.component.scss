@@ -10,43 +10,6 @@
     animation: change-back 10s infinite ease-in-out;
 }
 
-.top-preview {
-    position: absolute;
-    height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-}
-
-.title {
-    margin-bottom: 2rem;
-}
-
-.title span {
-    font-size: 5rem;
-}
-
-.more {
-    position: absolute;
-    bottom: 10rem;
-    left: 0;
-    right: 0;
-    background: white;
-    padding: 10px 20px;
-    /* max-width: max-content; */
-    color: black;
-    font-size: 1rem;
-    border-radius: 20px;
-}
-
-.more:hover {
-    background: black;
-    color: white;
-}
-
 @keyframes change-back {
     0% {
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 90%, rgba(255, 255, 255, 1) 90%), url(../../assets/img/background-1.jpg);
@@ -79,6 +42,47 @@
         background-position: center;
         background-size: cover;
     }
+}
+
+.top-preview {
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin-top: 10rem;
+    background: url(../../assets/img/IP-complete.png) no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 400px;
+}
+
+.title span {
+    font-size: 5rem;
+}
+
+.more {
+    position: absolute;
+    bottom: 10rem;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 10px 20px;
+    /* max-width: max-content; */
+    color: black;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+.more:hover {
+    background: black;
+    color: white;
 }
 
 
@@ -176,8 +180,9 @@
     .top-preview {
         font-weight: 800;
     }
-    .title span {
-        font-size: 4rem;
+    .title {
+        width: 300px;
+        margin-top: 20rem;
     }
     .container {
         display: flex;
@@ -191,8 +196,9 @@
 
 @media (max-width: 315px) {
     /* ------------TOP SECTION----------- */
-    .title span {
-        font-size: 3rem;
+    .title {
+        width: 200px;
+        margin-top: 30rem;
     }
     /* -------------IMG GRID------------ */
     .grid-title {
