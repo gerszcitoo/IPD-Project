@@ -74,7 +74,7 @@ input {
 }
 
 input[type=submit] {
-    background-color: black;
+    background: #333232;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -84,7 +84,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: gray;
+    background-color: grey;
 }
 
 .container {
