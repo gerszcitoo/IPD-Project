@@ -56,15 +56,13 @@
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.title {
-    // margin-top: 10rem;
-    background: url(../../assets/img/IP-complete.png) no-repeat;
-    background-size: contain;
+.home-logo {
     height: 100%;
-    width: 400px;
+    width: 450px;
 }
 
 .title span {
@@ -72,15 +70,17 @@
 }
 
 .more {
-    position: absolute;
-    bottom: 5rem;
-    left: 0;
-    right: 0;
+    // position: absolute;
+    // bottom: 5rem;
+    // left: 0;
+    // right: 0;
+    // margin-top: -20rem;
+    margin-top: -1rem;
     background: #333232;
-    padding: 10px 20px;
+    padding: 10px 20vw;
     /* max-width: max-content; */
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     border-radius: 20px;
     text-align: center;
@@ -283,9 +283,13 @@ input[type=submit]:hover {
     .top-preview {
         font-weight: 800;
     }
-    .title {
+    .home-logo {
         width: 300px;
-        margin-top: 20rem;
+        // margin-top: 20rem;
+    }
+    .more {
+        width: 20rem;
+        font-size: 1rem;
     }
     .container {
         display: flex;
@@ -310,9 +314,14 @@ input[type=submit]:hover {
 
 @media (max-width: 315px) {
     /* ------------TOP SECTION----------- */
-    .title {
+    .home-logo {
         width: 200px;
-        margin-top: 30rem;
+        // margin-top: 30rem;
+    }
+    .more {
+        padding: 10px 5vw;
+        width: 7rem;
+        font-size: 1rem;
     }
     /* -------------IMG GRID------------ */
     .grid-title {
