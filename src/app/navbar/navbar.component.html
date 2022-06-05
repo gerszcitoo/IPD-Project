@@ -1,51 +1,21 @@
-<!-- -------------- MOBILE NAV ----------------------- -->
-<div class="mobile-nav-background">
-    <div class="mobile-nav" (click)="toggleBurger()" [ngClass]="burger ? 'is-active' : ''" id="mobile-nav" aria-controls="primary-nav" aria-expanded="false">
-        <!-- -------------- HAMBURGER MENU-- ----------------- -->
-        <a class="mobile-btn">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-    </div>
-    <!-- ------------------------MOBILE SEARCH BOX----------------------- -->
-    <!-- <div class="search-mobile">
-        <div class="search-lens">
-            <a href="#">
-                <img src="./assets/img/lens.png" alt="">
-            </a>
-        </div>
-        <div class="searchbox-mobile">
-            <input placeholder="Buscar" type="text">
-        </div>
-    </div> -->
-</div>
-<!-- --------------- PC NAV -------------------- -->
-<nav class="primary-nav" data-visible="false">
-    <ul id="navbar">
-        <li>
-            <a routerLink="inicio">
-                <div class="nav-logo"></div>
-            </a>
-        </li>
-        <li><a class="nav-item" routerLink="inicio" routerLinkActive="active">Inicio</a></li>
-        <li><a class="nav-item" href="#portfolio">Portfolio</a></li>
-        <li><a class="nav-item" routerLink="sobre-mi" routerLinkActive="active">Sobre mí</a></li>
-        <li><a class="nav-item" routerLink="contacto" routerLinkActive="active">Contacto</a></li>
-        <li><a class="nav-item" href="https://www.espaciowillka.com">Tienda</a></li>
-
-    </ul>
-    <!-- ------------------------SEARCH BOX----------------------- -->
-    <!-- <div class="search">
-        <div class="search-lens">
-            <a href="#">
-                <img src="./assets/img/lens.png" alt="">
-            </a>
-        </div>
-        <div class="searchbox">
-            <input placeholder="Buscar" type="text">
-        </div>
-    </div> -->
-</nav>
+<!-- -----------NAVEGACIÓN----------- -->
+<header class="header">
+    <!-- Logo -->
+    <a routerLink="inicio" class="logo">
+        <div class="nav-logo"><img src="../../assets/img/IP-black.png" alt="logo de Estudio IP"></div>
+    </a>
+    <!-- Menu Hamburguesa -->
+    <input class="side-menu" type="checkbox" id="side-menu" />
+    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+    <!-- Navbar -->
+    <nav class="main-navbar">
+        <ul class="menu">
+            <li><a class="nav-item" routerLink="inicio">Inicio</a></li>
+            <li><a class="nav-item" href="#portfolio">Portfolio</a></li>
+            <li><a class="nav-item" routerLink="sobre-mi">Sobre mí</a></li>
+            <li><a class="nav-item" routerLink="contacto">Contacto</a></li>
+            <li><a class="nav-item" href="https://www.espaciowillka.com">Tienda</a></li>
+        </ul>
+    </nav>
+</header>
 <router-outlet></router-outlet>
-<!-- --------------- END NAV -------------------- -->
