@@ -1,59 +1,15 @@
-// .top-section {
-//     width: 100%;
-//     height: 100%;
-//     overflow: hidden;
-//     background-position: center;
-//     background-size: cover;
-//     height: 100vh;
-//     text-align: center;
-//     justify-content: center;
-//     // animation: change-back 10s linear infinite both;
-//     // animation: opacity 10s linear infinite both;
-// }
-// @keyframes change-back {
-//     0% {
-//         background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 90%, rgba(255, 255, 255, 1) 90%), url(../../assets/img/background-1.jpg);
-//         /* background: url(./assets/img/background-1.jpg); */
-//         background-position: center;
-//         background-size: cover;
-//     }
-//     25% {
-//         background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 90%, rgba(255, 255, 255, 1) 90%), url(../../assets/img/background-2.jpg);
-//         /* background: url(./assets/img/background-2.jpg); */
-//         background-position: center;
-//         background-size: cover;
-//     }
-//     50% {
-//         background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 90%, rgba(255, 255, 255, 1) 90%), url(../../assets/img/background-3.jpg);
-//         /* background: url(./assets/img/background-3.jpg); */
-//         background-position: center;
-//         background-size: cover;
-//     }
-//     75% {
-//         background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 90%, rgba(255, 255, 255, 1) 90%), url(../../assets/img/background-4.jpg);
-//         /* background: url(./assets/img/background-4.jpg); */
-//         background-position: center;
-//         background-size: cover
-//     }
-//     /* FIRST IMAGE NEEDS TO BE THE LAST TOO, IF NOT, IT DOESNT EASE */
-//     100% {
-//         background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 90%, rgba(255, 255, 255, 1) 90%), url(../../assets/img/background-1.jpg);
-//         /* background: url(./assets/img/background-1.jpg); */
-//         background-position: center;
-//         background-size: cover;
-//     }
-// }
 // ------------------------HOME CAROUSEL-----------------------
 .carousel-item {
-    height: 90vh !important;
+    position: absolute;
+}
+
+.carousel-inner {
+    position: relative;
 }
 
 .top-preview {
-    position: absolute;
-    height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    z-index: 9;
+    transform: translate(0, -10%);
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
@@ -62,7 +18,7 @@
 
 .home-logo {
     height: 100%;
-    width: 450px;
+    width: 350px;
 }
 
 .title span {
@@ -70,11 +26,6 @@
 }
 
 .more {
-    // position: absolute;
-    // bottom: 5rem;
-    // left: 0;
-    // right: 0;
-    // margin-top: -20rem;
     margin-top: -1rem;
     background: #333232;
     padding: 10px 20vw;
@@ -283,7 +234,7 @@ input[type=submit]:hover {
         font-weight: 800;
     }
     .home-logo {
-        width: 300px;
+        width: 250px;
         // margin-top: 20rem;
     }
     .more {
@@ -314,8 +265,7 @@ input[type=submit]:hover {
 @media (max-width: 315px) {
     /* ------------TOP SECTION----------- */
     .home-logo {
-        width: 200px;
-        // margin-top: 30rem;
+        width: 150px;
     }
     .more {
         padding: 10px 5vw;
