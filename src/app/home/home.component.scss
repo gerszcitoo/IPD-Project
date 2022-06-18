@@ -147,10 +147,12 @@
 }
 
 .left-row {
+    margin-left: 1rem;
     width: 60%;
 }
 
 .right-row {
+    margin-left: 1rem;
     width: 40%;
 }
 
@@ -228,7 +230,7 @@ input[type=submit]:hover {
 
 /* -------------------- RESPONSIVE ------------------- */
 
-@media (max-width: 670px) {
+@media (max-width: 768px) {
     /* ------------------TOP SECTION------------------ */
     .top-preview {
         font-weight: 800;
@@ -250,6 +252,24 @@ input[type=submit]:hover {
         font-size: 1rem;
     }
     // -------------CONTACTO------------
+    .contact-container {
+        flex-direction: column;
+    }
+    .right-row {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .left-row {
+        text-align: center;
+        width: 90%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
     label {
         display: flex;
         justify-content: center;
@@ -262,7 +282,7 @@ input[type=submit]:hover {
     }
 }
 
-@media (max-width: 315px) {
+@media (max-width: 350px) {
     /* ------------TOP SECTION----------- */
     .home-logo {
         width: 150px;
@@ -278,5 +298,9 @@ input[type=submit]:hover {
     }
     .element-title {
         font-size: 1.5rem;
+    }
+    // ------------CONTACT--------------
+    .contact-container {
+        margin: 2rem 0 0 0;
     }
 }
