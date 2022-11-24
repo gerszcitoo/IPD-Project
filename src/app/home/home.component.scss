@@ -1,323 +1,322 @@
 // ------------------------HOME CAROUSEL-----------------------
 .carousel-item {
-    position: absolute;
+  position: absolute;
 }
 
 .carousel-inner {
-    position: relative;
+  position: relative;
 }
 
 .top-preview {
-    z-index: 9;
-    transform: translate(0, -10%);
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  z-index: 9;
+  transform: translate(0, -10%);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .home-logo {
-    height: 100%;
-    width: 350px;
+  height: 100%;
+  width: 350px;
 }
 
 .title span {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 .more {
-    margin-top: -1rem;
-    background: #333232;
-    padding: 10px 20vw;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 400;
-    border-radius: 20px;
-    text-align: center;
+  margin-top: -1rem;
+  background: #333232;
+  padding: 10px 20vw;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border-radius: 20px;
+  text-align: center;
 }
 
 .more:hover {
-    background: black;
-    color: white;
+  background: black;
+  color: white;
 }
-
 
 /* --------------------GALLERY GRID--------------------- */
 
 .grid-title {
-    padding: 3rem;
-    display: flex;
-    justify-content: center;
-    font-size: 3rem;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
 }
 
 .grid-element {
-    background: grey;
-    display: flex;
-    justify-content: center;
-    // align-items: center;
-    position: relative;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
 .grid-element:hover .grid-btn {
-    opacity: 1;
+  opacity: 1;
 }
 
 .grid-btn {
-    position: absolute;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .2s ease;
-    background: rgba(180, 180, 180, 0.9);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.2s ease;
+  background: rgba(180, 180, 180, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.grid-element>img {
-    object-fit: cover;
-    width: 100%;
-    max-height: 100%;
+.grid-element > img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
 }
 
 .element-title {
-    font-size: 1.5rem;
-    color: white;
-    font-weight: 200;
-    text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 200;
+  text-align: center;
 }
 
 .img1 {
-    grid-area: 1 / 1 / 3 / 3;
+  grid-area: 1 / 1 / 3 / 3;
 }
-
 .img2 {
-    grid-area: 1 / 3 / 3 / 4;
+  grid-area: 1 / 3 / 3 / 4;
 }
-
 .img3 {
-    grid-area: 1 / 4 / 2 / 5;
+  grid-area: 1 / 4 / 2 / 5;
 }
-
 .img4 {
-    grid-area: 2 / 4 / 3 / 5;
+  grid-area: 2 / 4 / 3 / 5;
 }
-
 .img5 {
-    grid-area: 3 / 1 / 5 / 2;
+  grid-area: 3 / 1 / 5 / 2;
 }
-
 .img6 {
-    grid-area: 3 / 2 / 4 / 3;
+  grid-area: 3 / 2 / 4 / 3;
 }
-
 .img7 {
-    grid-area: 4 / 2 / 5 / 3;
+  grid-area: 4 / 2 / 5 / 3;
 }
-
 .img8 {
-    grid-area: 3 / 3 / 5 / 5;
+  grid-area: 3 / 3 / 5 / 5;
 }
-
 .img9 {
-    grid-area: 5 / 1 / 6 / 2;
+  grid-area: 5 / 1 / 6 / 2;
 }
-
 .img10 {
-    grid-area: 6 / 1 / 7 / 2;
+  grid-area: 6 / 1 / 7 / 2;
 }
-
 .img11 {
-    grid-area: 5 / 2 / 7 / 4;
+  grid-area: 5 / 2 / 7 / 4;
 }
-
 .img12 {
-    grid-area: 5 / 4 / 7 / 5;
+  grid-area: 5 / 4 / 7 / 5;
+}
+.img13 {
+  grid-area: 7 / 1 / 9 / 3;
+}
+.img14 {
+  grid-area: 7 / 3 / 9 / 4;
+}
+.img15 {
+  grid-area: 7 / 4 / 8 / 5;
+}
+.img16 {
+  grid-area: 8 / 4 / 9 / 5;
 }
 
 // ---------------------CONTACTO--------------------
 .contact-title {
-    display: flex;
-    justify-content: center;
-    font-size: 3rem;
-    margin-top: 2rem;
-    margin-bottom: -2rem;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
 }
 
 .contact-container {
-    display: flex;
-    flex-direction: row;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    margin: 4rem;
-    font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin: 4rem;
+  font-size: 1.2rem;
 }
 
 .left-row {
-    margin-left: 1rem;
-    width: 60%;
+  margin-left: 1rem;
+  width: 60%;
 }
 
 .right-row {
-    margin-left: 1rem;
-    width: 40%;
+  margin-left: 1rem;
+  width: 40%;
 }
 
 // ---------------------CONTACT FORM--------------------
-input[type=text],
+input[type="text"],
 select,
 textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: none;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
 }
 
 label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
 }
 
 form {
-    margin: 20px;
+  margin: 20px;
 }
 
 input {
-    margin: 10px;
+  margin: 10px;
 }
 
-input[type=submit] {
-    background: #333232;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
+input[type="submit"] {
+  background: #333232;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
 }
 
-input[type=submit]:hover {
-    background-color: grey;
+input[type="submit"]:hover {
+  background-color: grey;
 }
 
 .col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
+  float: left;
+  width: 25%;
+  margin-top: 6px;
 }
 
 .col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
+  float: left;
+  width: 75%;
+  margin-top: 6px;
 }
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 // ---------------------CONTACT INFO--------------------
 .contact-info {
-    margin: 2rem 0 0 1rem;
-    // font-size: 1.2rem;
+  margin: 2rem 0 0 1rem;
+  // font-size: 1.2rem;
 }
 
 .contact-info a {
-    color: black;
+  color: black;
 }
 
 .contact-item {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
-
 
 /* -------------------- RESPONSIVE ------------------- */
 
 @media (max-width: 768px) {
-    /* ------------------TOP SECTION------------------ */
-    .top-preview {
-        font-weight: 800;
-    }
-    .home-logo {
-        width: 250px;
-        // margin-top: 20rem;
-    }
-    .more {
-        width: 20rem;
-        font-size: 1rem;
-    }
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-    /* ---------------IMG GRID---------------- */
-    .element-title {
-        font-size: 1rem;
-    }
-    // -------------CONTACTO------------
-    .contact-container {
-        flex-direction: column;
-    }
-    .right-row {
-        width: 100%;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    .left-row {
-        text-align: center;
-        width: 90%;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    label {
-        display: flex;
-        justify-content: center;
-    }
-    .col-25,
-    .col-75,
-    input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-    }
+  /* ------------------TOP SECTION------------------ */
+  .top-preview {
+    font-weight: 800;
+  }
+  .home-logo {
+    width: 250px;
+    // margin-top: 20rem;
+  }
+  .more {
+    width: 20rem;
+    font-size: 1rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* ---------------IMG GRID---------------- */
+  .element-title {
+    font-size: 1rem;
+  }
+  // -------------CONTACTO------------
+  .contact-container {
+    flex-direction: column;
+  }
+  .right-row {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .left-row {
+    text-align: center;
+    width: 90%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  label {
+    display: flex;
+    justify-content: center;
+  }
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 350px) {
-    /* ------------TOP SECTION----------- */
-    .home-logo {
-        width: 150px;
-    }
-    .more {
-        padding: 10px 5vw;
-        width: 7rem;
-        font-size: 1rem;
-    }
-    /* -------------IMG GRID------------ */
-    .grid-title {
-        font-size: 2rem;
-    }
-    .element-title {
-        font-size: 1.5rem;
-    }
-    // ------------CONTACT--------------
-    .contact-container {
-        margin: 2rem 0 0 0;
-    }
+  /* ------------TOP SECTION----------- */
+  .home-logo {
+    width: 150px;
+  }
+  .more {
+    padding: 10px 5vw;
+    width: 7rem;
+    font-size: 1rem;
+  }
+  /* -------------IMG GRID------------ */
+  .grid-title {
+    font-size: 2rem;
+  }
+  .element-title {
+    font-size: 1.5rem;
+  }
+  // ------------CONTACT--------------
+  .contact-container {
+    margin: 2rem 0 0 0;
+  }
 }

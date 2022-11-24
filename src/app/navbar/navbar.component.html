@@ -1,21 +1,38 @@
 <!-- -----------NAVEGACIÓN----------- -->
 <header class="header">
-    <!-- Logo -->
-    <a routerLink="inicio" class="logo">
-        <div class="nav-logo"><img src="../../assets/img/IP-white.png" alt="logo de Estudio IP"></div>
-    </a>
-    <!-- Menu Hamburguesa -->
-    <input class="side-menu" type="checkbox" id="side-menu" />
-    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
-    <!-- Navbar -->
-    <nav class="main-navbar">
-        <ul class="menu">
-            <li><a class="nav-item" routerLink="inicio">INICIO</a></li>
-            <li><a class="nav-item" href="#portfolio">PORTFOLIO</a></li>
-            <li><a class="nav-item" routerLink="sobre-mi">SOBRE MÍ</a></li>
-            <li><a class="nav-item" routerLink="contacto">CONTACTO</a></li>
-            <li><a class="nav-item" href="https://www.espaciowillka.com">TIENDA</a></li>
-        </ul>
-    </nav>
+  <!-- Logo -->
+  <a routerLink="inicio" class="logo">
+    <div class="nav-logo">
+      <img src="../../assets/img/IP-white.png" alt="logo de Estudio IP" />
+    </div>
+  </a>
+  <!-- Menu Hamburguesa -->
+  <input class="side-menu" type="checkbox" id="side-menu" />
+  <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+  <!-- Navbar -->
+  <nav class="main-navbar">
+    <ul class="menu">
+      <li><a class="nav-item" routerLink="inicio">INICIO</a></li>
+      <li><a class="nav-item" href="#portfolio">PORTFOLIO</a></li>
+      <li><a class="nav-item" routerLink="sobre-mi">SOBRE MÍ</a></li>
+      <li><a class="nav-item" routerLink="contacto">CONTACTO</a></li>
+      <li>
+        <a class="nav-item" href="https://www.espaciowillka.com">TIENDA</a>
+      </li>
+    </ul>
+    <div class="iconos">
+      <a
+        href="https://www.instagram.com/estudio.ip/"
+        target="blank_"
+        class="icon-button instagram"
+        ><i class="fab fa-instagram"></i>
+        <span></span>
+      </a>
+      <a href="mailto:ivana.pares@estudioip.com" class="icon-button email"
+        ><i class="far fa-envelope"></i>
+        <span></span>
+      </a>
+    </div>
+  </nav>
 </header>
 <router-outlet></router-outlet>
