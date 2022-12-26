@@ -1,0 +1,19 @@
+.obra-name {
+  height: 250px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.title span {
+  font-size: 5rem;
+}
+
+.top-preview {
+  background-image: url("../../../assets/img/5-ARENALES/16.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
