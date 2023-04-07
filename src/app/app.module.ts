@@ -26,8 +26,9 @@ import { CombetComponent } from './portfolio/combet/combet.component';
 import { EcuadorComponent } from './portfolio/ecuador/ecuador.component';
 import { ManuelBelgranoComponent } from './portfolio/manuel-belgrano/manuel-belgrano.component';
 import { FrenchComponent } from './portfolio/french/french.component';
+import { GalleryLightboxComponent } from './gallery-lightbox/gallery-lightbox.component';
 
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -53,14 +54,16 @@ import { FrenchComponent } from './portfolio/french/french.component';
     CombetComponent,
     EcuadorComponent,
     ManuelBelgranoComponent,
-    FrenchComponent
+    FrenchComponent,
+    GalleryLightboxComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
