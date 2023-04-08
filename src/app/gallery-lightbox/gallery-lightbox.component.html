@@ -8,7 +8,13 @@
       />
     </div>
   </div>
-  <div *ngIf="showMask" class="lightbox" @animation2>
+  <div
+    (keydown)="onKeyDown($event)"
+    *ngIf="showMask"
+    class="lightbox"
+    tabindex="0"
+    @animation2
+  >
     <span *ngIf="showCount" class="count"
       >{{ currentIndex + 1 }}/{{ totalImageCount }}</span
     >

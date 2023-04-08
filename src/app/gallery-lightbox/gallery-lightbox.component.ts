@@ -53,6 +53,7 @@ export class GalleryLightboxComponent implements OnInit {
   }
 
   onPreviewImage(index: number): void {
+    (document.querySelector('.lightbox') as HTMLElement)?.focus();
     this.showMask = true;
     this.previewImage = true;
     this.currentIndex = index;
@@ -62,6 +63,16 @@ export class GalleryLightboxComponent implements OnInit {
   onAnimationEnd(event: AnimationEvent) {
     if (event.toState === 'void') {
       this.showMask = false;
+    }
+  }
+
+  onKeyDown(event: KeyboardEvent) {
+    if (event.key === 'ArrowRight') {
+      this.next();
+    } else if (event.key === 'ArrowLeft') {
+      this.prev();
+    } else if (event.key === 'Escape') {
+      this.onClosePreview();
     }
   }
   onClosePreview() {
