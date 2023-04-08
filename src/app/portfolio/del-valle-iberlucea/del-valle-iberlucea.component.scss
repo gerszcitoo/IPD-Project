@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   color: black;
+  padding-left: 30px;
 }
 
 .title span {
@@ -17,7 +18,7 @@
 }
 
 .top-preview {
-  background-image: url("../../../assets/img/3-DEL VALLE/1.jpg");
+  background-image: url("../../../assets/img/3-DEL VALLE/10.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
@@ -26,5 +27,6 @@
 @media (max-width: 650px) {
   .obra-name {
     width: 100%;
+    padding-left: 0;
   }
 }

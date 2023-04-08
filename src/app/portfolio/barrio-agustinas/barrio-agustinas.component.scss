@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   color: black;
+  padding-left: 30px;
 }
 
 .title span {
@@ -26,5 +27,6 @@
 @media (max-width: 650px) {
   .obra-name {
     width: 100%;
+    padding-left: 0;
   }
 }
