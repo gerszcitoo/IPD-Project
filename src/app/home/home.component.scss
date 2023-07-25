@@ -26,22 +26,6 @@
   font-size: 5rem;
 }
 
-/* .more {
-  margin-top: -1rem;
-  background: #333232;
-  padding: 10px 20vw;
-  color: white;
-  font-size: 1.2rem;
-  font-weight: 400;
-  border-radius: 20px;
-  text-align: center;
-}
-
-.more:hover {
-  background: black;
-  color: white;
-} */
-
 /* --------------------GALLERY GRID--------------------- */
 
 .grid-title {
@@ -55,7 +39,7 @@
   margin-top: 5rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-rows: repeat(10, 1fr);
   grid-column-gap: 5px;
   grid-row-gap: 5px;
 }
@@ -144,6 +128,18 @@
 }
 .img16 {
   grid-area: 8 / 4 / 9 / 5;
+}
+.img17 {
+  grid-area: 9 / 1 / 11 / 2;
+}
+.img18 {
+  grid-area: 10 / 2 / 11 / 3;
+}
+.img19 {
+  grid-area: 9 / 2 / 10 / 3;
+}
+.img20 {
+  grid-area: 9 / 3 / 11 / 5;
 }
 
 // ---------------------CONTACTO--------------------

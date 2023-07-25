@@ -1,19 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
-// @font-face {
-//     font-family: Gotham;
-//     src: url("/src/assets/fonts/GOTHAM-BLACK.OTF") format("opentype");
-// }
-
-/* @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600,700,900&display=swap');
-
-html,
-body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+@font-face {
+  font-family: "Gotham";
+  src: url("./assets/fonts/Gotham/GOTHAM-BOOK.OTF") format("opentype");
 }
- */
+
 * {
   font-family: "Gotham", sans-serif;
   padding: 0;
@@ -73,6 +64,3 @@ body {
 ::-webkit-scrollbar-track {
   background: transparent;
 }
-
-// -------------NAVBAR-------------
-// -------------BODY--------------
