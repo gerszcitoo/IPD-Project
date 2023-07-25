@@ -4,7 +4,7 @@ $main-color: #333232;
   box-shadow: 1px 1px 5px 1px black;
   top: 0;
   width: 100%;
-  z-index: 99999;
+  z-index: 1;
   padding: 1rem;
 }
 
@@ -228,7 +228,7 @@ ul {
 
 @media (min-width: 768px) {
   .header {
-    position: inherit;
+    position: fixed;
     display: flex;
     align-items: center;
     padding: 0;

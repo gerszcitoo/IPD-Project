@@ -3,8 +3,8 @@
 }
 
 .vl {
-  border-left: 3px solid #212529;
-  height: 110px;
+  border-left: 3px solid #8e8f8f;
+  height: auto;
   padding: 5px;
 }
 
@@ -17,8 +17,8 @@
 }
 
 .about-main {
-  display: flex;
   margin: 1rem;
+  margin-top: 100px;
 }
 
 // ------------COL 1--------
@@ -29,10 +29,11 @@
 .about-img {
   height: 30rem;
   width: 30rem;
+  float: left;
+  margin-right: 20px;
   background: url(../../assets/img/IvanaPares.jpg) no-repeat;
   background-position: center;
   background-size: cover;
-  border-radius: 50%;
 }
 
 // ------------COL 2--------
@@ -54,13 +55,32 @@
 // ---------RESPONSIVE---------
 @media (max-width: 1200px) {
   .about-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-main {
+    margin-top: 15px;
+  }
+  .about-img {
+    margin-right: 0px;
+  }
+  .detras-escena {
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
 
 @media (max-width: 480px) {
+  .about-main {
+    margin-top: 10px;
+  }
   .about-img {
+    margin-right: 0;
     width: 15rem;
     height: 15rem;
   }

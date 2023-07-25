@@ -26,7 +26,12 @@ import { CombetComponent } from './portfolio/combet/combet.component';
 import { EcuadorComponent } from './portfolio/ecuador/ecuador.component';
 import { ManuelBelgranoComponent } from './portfolio/manuel-belgrano/manuel-belgrano.component';
 import { FrenchComponent } from './portfolio/french/french.component';
+import { AirbnbComponent } from './portfolio/airbnb/airbnb.component';
 import { GalleryLightboxComponent } from './gallery-lightbox/gallery-lightbox.component';
+import { RebenqueComponent } from './portfolio/rebenque/rebenque.component';
+import { TinogastaComponent } from './portfolio/tinogasta/tinogasta.component';
+import { Valdevez15Component } from './portfolio/valdevez15/valdevez15.component';
+import { LasHerasComponent } from './portfolio/las-heras/las-heras.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -56,6 +61,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ManuelBelgranoComponent,
     FrenchComponent,
     GalleryLightboxComponent,
+    AirbnbComponent,
+    RebenqueComponent,
+    TinogastaComponent,
+    Valdevez15Component,
+    LasHerasComponent,
   ],
   imports: [
     BrowserModule,

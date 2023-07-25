@@ -4,27 +4,38 @@
 }
 
 .obra-name {
-  height: 250px;
-  width: 350px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: black;
+  font-size: 3rem;
+  margin-top: 30px;
 }
 
-.title span {
-  font-size: 5rem;
+.italic {
+  font-style: italic;
+}
+
+.grey {
+  color: grey;
+}
+
+.obra-content {
+  text-align: center;
+  margin-bottom: -100px;
 }
 
 .top-preview {
   background-image: url("../../../assets/img/5-ARENALES/16.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 250px;
+  height: 800px;
+  margin-top: 90px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
+  .top-preview {
+    margin-top: 0;
+  }
   .obra-name {
+    font-size: 3rem;
     width: 100%;
   }
 }

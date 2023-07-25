@@ -23,11 +23,16 @@ import { CombetComponent } from './portfolio/combet/combet.component';
 import { EcuadorComponent } from './portfolio/ecuador/ecuador.component';
 import { ManuelBelgranoComponent } from './portfolio/manuel-belgrano/manuel-belgrano.component';
 import { FrenchComponent } from './portfolio/french/french.component';
+import { AirbnbComponent } from './portfolio/airbnb/airbnb.component';
+import { RebenqueComponent } from './portfolio/rebenque/rebenque.component';
+import { TinogastaComponent } from './portfolio/tinogasta/tinogasta.component';
+import { Valdevez15Component } from './portfolio/valdevez15/valdevez15.component';
+import { LasHerasComponent } from './portfolio/las-heras/las-heras.component';
 
 const routes: Routes = [
   { path: 'inicio', component: HomeComponent },
   { path: '', redirectTo: 'inicio', pathMatch: 'full' },
-  { path: 'sobre-mi', component: AboutComponent },
+  { path: 'estudio', component: AboutComponent },
   { path: 'contacto', component: ContactComponent },
   // PORTFOLIO PATHS
   { path: 'portfolio/horizontes', component: HorizontesComponent },
@@ -44,11 +49,16 @@ const routes: Routes = [
   { path: 'portfolio/highland-park', component: HighlandParkComponent },
   { path: 'portfolio/barrio-agustinas', component: BarrioAgustinasComponent },
   { path: 'portfolio/bahia-blanca', component: BahiaBlancaComponent },
-  { path: 'portfolio/valdevez', component: ValdevezComponent },
+  { path: 'portfolio/valdevez-8', component: ValdevezComponent },
   { path: 'portfolio/combet', component: CombetComponent },
   { path: 'portfolio/ecuador', component: EcuadorComponent },
   { path: 'portfolio/manuel-belgrano', component: ManuelBelgranoComponent },
   { path: 'portfolio/french', component: FrenchComponent },
+  { path: 'portfolio/airbnb', component: AirbnbComponent },
+  { path: 'portfolio/rebenque', component: RebenqueComponent },
+  { path: 'portfolio/tinogasta', component: TinogastaComponent },
+  { path: 'portfolio/valdevez-15', component: Valdevez15Component },
+  { path: 'portfolio/las-heras', component: LasHerasComponent },
 
   // ===404===
   { path: '404', component: PageNotFoundComponent },
