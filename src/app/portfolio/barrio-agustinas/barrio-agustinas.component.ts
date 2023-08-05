@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-barrio-agustinas',
   templateUrl: './barrio-agustinas.component.html',
-  styleUrls: ['./barrio-agustinas.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class BarrioAgustinasComponent implements OnInit {
   constructor() {}

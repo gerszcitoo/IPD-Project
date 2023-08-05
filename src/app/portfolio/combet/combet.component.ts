@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-combet',
   templateUrl: './combet.component.html',
-  styleUrls: ['./combet.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class CombetComponent implements OnInit {
   constructor() {}

@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-tinogasta',
   templateUrl: './tinogasta.component.html',
-  styleUrls: ['./tinogasta.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class TinogastaComponent implements OnInit {
   constructor() {}

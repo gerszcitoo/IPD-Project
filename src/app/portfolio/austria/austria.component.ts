@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-austria',
   templateUrl: './austria.component.html',
-  styleUrls: ['./austria.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class AustriaComponent implements OnInit {
   constructor() {}

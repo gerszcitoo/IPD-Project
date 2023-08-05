@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-french',
   templateUrl: './french.component.html',
-  styleUrls: ['./french.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class FrenchComponent implements OnInit {
   constructor() {}

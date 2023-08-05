@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-horizontes',
   templateUrl: './horizontes.component.html',
-  styleUrls: ['./horizontes.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class HorizontesComponent implements OnInit {
   constructor() {}

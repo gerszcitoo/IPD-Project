@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-highland-park',
   templateUrl: './highland-park.component.html',
-  styleUrls: ['./highland-park.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class HighlandParkComponent implements OnInit {
   constructor() {}

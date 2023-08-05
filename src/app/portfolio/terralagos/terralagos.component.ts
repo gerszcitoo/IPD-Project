@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-terralagos',
   templateUrl: './terralagos.component.html',
-  styleUrls: ['./terralagos.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class TerralagosComponent implements OnInit {
   constructor() {}

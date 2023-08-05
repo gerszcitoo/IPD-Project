@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-portezuelo',
   templateUrl: './portezuelo.component.html',
-  styleUrls: ['./portezuelo.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class PortezueloComponent implements OnInit {
   constructor() {}

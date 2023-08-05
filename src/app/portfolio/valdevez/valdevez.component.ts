@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-valdevez',
   templateUrl: './valdevez.component.html',
-  styleUrls: ['./valdevez.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class ValdevezComponent implements OnInit {
   constructor() {}

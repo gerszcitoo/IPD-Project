@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-bahia-blanca',
   templateUrl: './bahia-blanca.component.html',
-  styleUrls: ['./bahia-blanca.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class BahiaBlancaComponent implements OnInit {
   constructor() {}

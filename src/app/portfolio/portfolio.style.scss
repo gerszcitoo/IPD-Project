@@ -1,0 +1,32 @@
+:host {
+  width: 100vw;
+  height: 100vh;
+}
+
+.obra-name {
+  color: black;
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.grey {
+  font-size: 1rem;
+  color: grey;
+}
+
+.obra-content {
+  margin-bottom: -120px;
+  margin-top: 100px;
+  margin-left: 2%;
+}
+
+@media (max-width: 768px) {
+  .obra-name {
+    font-size: 3rem;
+    width: 100%;
+  }
+}

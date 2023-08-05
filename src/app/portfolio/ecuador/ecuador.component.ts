@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-ecuador',
   templateUrl: './ecuador.component.html',
-  styleUrls: ['./ecuador.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class EcuadorComponent implements OnInit {
   constructor() {}

@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-arenales',
   templateUrl: './arenales.component.html',
-  styleUrls: ['./arenales.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class ArenalesComponent implements OnInit {
   constructor() {}

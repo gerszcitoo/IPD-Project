@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-airbnb',
   templateUrl: './airbnb.component.html',
-  styleUrls: ['./airbnb.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class AirbnbComponent implements OnInit {
   constructor() {}

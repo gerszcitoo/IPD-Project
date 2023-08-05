@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-del-valle-iberlucea',
   templateUrl: './del-valle-iberlucea.component.html',
-  styleUrls: ['./del-valle-iberlucea.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class DelValleIberluceaComponent implements OnInit {
   constructor() {}

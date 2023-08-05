@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-rebenque',
   templateUrl: './rebenque.component.html',
-  styleUrls: ['./rebenque.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class RebenqueComponent implements OnInit {
   constructor() {}

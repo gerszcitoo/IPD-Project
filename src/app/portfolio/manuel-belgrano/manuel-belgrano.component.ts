@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-manuel-belgrano',
   templateUrl: './manuel-belgrano.component.html',
-  styleUrls: ['./manuel-belgrano.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class ManuelBelgranoComponent implements OnInit {
   constructor() {}

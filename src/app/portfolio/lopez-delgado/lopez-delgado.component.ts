@@ -7,7 +7,7 @@ interface Item {
 @Component({
   selector: 'app-lopez-delgado',
   templateUrl: './lopez-delgado.component.html',
-  styleUrls: ['./lopez-delgado.component.scss'],
+  styleUrls: ['../portfolio.style.scss'],
 })
 export class LopezDelgadoComponent implements OnInit {
   constructor() {}
